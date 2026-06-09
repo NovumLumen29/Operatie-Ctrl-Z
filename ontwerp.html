@@ -11,17 +11,36 @@
 </head>
 <body>
     <h1>Ontwerp</h1>
-    <p>De naam van mijn escape room is "Operatie Ctrl+Z". In de escape room heeft AI de wereld overgenomen. De speler moet door allerlei puzzels op te lossen in een geheime basis proberen de wereld te redden. Ik wil uitdagingen/puzzels gaan maken zoals: 
+    <p>De naam van mijn escape room is "Operatie Ctrl+Z". In de escape room heeft AI de wereld overgenomen. De speler moet door allerlei puzzels op te lossen in een geheime basis proberen de wereld te redden. Ik wil uitdagingen/puzzels gaan maken zoals: </p>
         <ul>
             <li>Ontcijferen van binaire code</li>
             <li>Dingen vinden in de broncode van de escape room</li>
-            <li>Dingen wijzigen/foutmeldingen oplossen in de broncode via 'Inspecteren'/F12</li>
+            <li>Dingen wijzigen/foutmeldingen oplossen in de broncode</li>
             <li>Puzzel met booleaanse logica oplossen</li>
             <li>RGB-waarde naar hexadecimale waarde converteren</li>
             <li>Een AI-chatbot proberen over te halen om je door te laten</li>
             <li>etc...</li>
         </ul>
-    </p>
+    <h2>Toestandsdiagram</h2>
+    <img src="images/toestandsdiagram.svg" alt="Toestandsdiagram" id="toestandsdiagram">
+    <br>
+    <h3>Uitleg bij het toestandsdiagram</h3>
+    <ol>
+        <li>De escape room begint met een uitleg over de situatie: de wereld is overgenomen door AI.</li>
+        <li>De speler krijgt een gelekte e-mail met een geheime code om in te loggen in de besturingsinterface van de AI.</li>
+        <li>De speler logt in met de geheime code.</li>
+        <li>De speler krijgt een afbeeldingsbestand waarin hij wat tekst moet aanpassen. Als dit gelukt is kan hij de afbeelding openen en ziet hij een code.</li>
+        <li>De speler logt met de code in in de besturingsinterface van de AI, waar hij instructies aan de AI kan geven.</li>
+        <li>De speler moet proberen de AI te overhalen om te stoppen en de overname ongedaan te maken.</li>
+        <li>De speler heeft de AI overgehaald, maar de AI wil dat de speler eerst nog wat puzzels oplost.</li>
+        <li>De speler moet een puzzel met Booleaanse logica oplossen.</li>
+        <li>De speler heeft de puzzel opgelost.</li>
+        <li>De speler moet een binaire code ontcijferen.</li>
+        <li>De speler heeft de code ontcijferd.</li>
+        <li>De speler moet als laatst een hexadecimale waarde converteren naar een RGB-waarde. Hij moet deze waarde tot slot op een of andere manier converteren naar letters.</li>
+        <li>De speler heeft de puzzel opgelost en heeft daarmee de escape room voltooid.</li>
+    </ol>
+    <br>
     <button onclick="window.location.href='index.html'">Ga terug naar de homepage</button>
 </body>
 </html>
